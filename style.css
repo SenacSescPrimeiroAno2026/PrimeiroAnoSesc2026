@@ -1,0 +1,113 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    header {
+      background: #005baa;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 8px solid #f9c400;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #e6f0ff;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .titulo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .titulo h2 {
+      color: #005baa;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .titulo p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .lista-alunos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .botao-aluno {
+      background: white;
+      border-radius: 14px;
+      padding: 25px 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border-top: 6px solid #f9c400;
+      transition: 0.3s;
+      text-decoration: none;
+      color: #005baa;
+      display: block;
+    }
+
+    .botao-aluno:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0, 91, 170, 0.25);
+      background: #005baa;
+      color: white;
+    }
+
+    .numero {
+      width: 42px;
+      height: 42px;
+      background: #005baa;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .botao-aluno:hover .numero {
+      background: #f9c400;
+      color: #005baa;
+    }
+
+    .botao-aluno h3 {
+      font-size: 22px;
+    }
+
+    footer {
+      background: #005baa;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 40px;
+      border-top: 6px solid #f9c400;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
