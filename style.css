@@ -12,7 +12,7 @@
 
 
     header {
-      background: #005baa;
+      background: #004a8d;
       color: white;
       padding: 30px 20px;
       border-bottom: 8px solid #f9c400;
@@ -48,7 +48,7 @@
     }
 
     .titulo h2 {
-      color: #005baa;
+      color: #004a8d;
       font-size: 28px;
       margin-bottom: 10px;
     }
@@ -85,21 +85,21 @@
       border-top: 6px solid #f9c400;
       transition: 0.3s;
       text-decoration: none;
-      color: #005baa;
+      color: #004a8d;
       display: block;
     }
 
     .botao-aluno:hover {
       transform: translateY(-6px);
       box-shadow: 0 8px 18px rgba(0, 91, 170, 0.25);
-      background: #005baa;
+      background: #004a8d;
       color: white;
     }
 
     .numero {
       width: 42px;
       height: 42px;
-      background: #005baa;
+      background: #004a8d;
       color: white;
       border-radius: 50%;
       display: flex;
@@ -112,7 +112,7 @@
 
     .botao-aluno:hover .numero {
       background: #f9c400;
-      color: #005baa;
+      color: #004a8d;
     }
 
     .botao-aluno h3 {
@@ -120,7 +120,7 @@
     }
 
     footer {
-      background: #005baa;
+      background: #004a8d;
       color: white;
       text-align: center;
       padding: 18px;
